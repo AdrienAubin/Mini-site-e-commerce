@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+h1 {
+    font-size: 40px;
+}
+header {
+    height: 7%;
+    background-color: grey;
+    padding: 0;
+    margin: 0;
+}
+.containersearch {
+    margin-top: 13px;
+    width: 30rem;
+    height: 5%;
+    position: relative;
+    }
+.searchbar {
+    font-size: 1.2rem;
+    width: 340px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 1rem 2rem rgba(black, .1);
+    padding: 1rem;
+
+    }
+    
+    
+.searchbar::placeholder {
+opacity: .5;
+}
+
+.buttonsearch:hover {
+    cursor: pointer;
+}
+
+
+.head {
+    background-color: grey;
+    color: white;
+    display: flex;
+    padding: 35px 0 5px 0;
+    justify-content: space-around;
+}
+ul {
+    background-color: Black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; 
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+    
+}
+a {
+    
+
+	color:#ffff;
+	text-decoration: none;
+}
+
+.soustitre {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 78px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    color: white;
+}
+.Item1 {
+    margin-top: 10px;
+    cursor: pointer;
+}
+.fas {
+    margin-top: 15px;
+    font-size: 30px;
+}
+.Item2 {
+    padding-top: 0;
+}
+.Sound {
+    text-shadow: White 0px 0px 10px;
+}
+.mainimg {
+    height: 700px;
+    width: 100%;
+}
+.vendu {
+    text-align: center;
+    margin-top: 30px;
+}
+.vendus {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 300px 0 250px;
+
+}
+.span {
+    margin-left: 30px;
+    color: green;
+}
+.price {
+    background-color: Black;
+    height: 50px;
+    width: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+.pricer {
+    padding-top: 15px;
+    padding-left: 0px;
+}
+.foot {
+    height: 60px;
+    background-color: black;
+    margin-top: 65px;
+}
+footer {
+    
+    height: 250px;
+    background-color: rgb(20, 20, 20);
+    padding: 0 150px 0 150px;
+}
+.foot2 {
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px 0px 50px;
+}
+.paiement {
+    margin-left: 30px;
+}
+.foot3 {
+        display:flex;
+        justify-content: space-between;
+        padding: 0px 80px 0px 100px;
+
+}
+.num {
+    color:white;
+    margin-left: 140px;
+}
